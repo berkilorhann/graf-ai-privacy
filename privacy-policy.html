@@ -37,17 +37,6 @@
     li { font-size: 15px; color: #444; margin-bottom: 6px; }
     a  { color: #1a73e8; text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .badge {
-      display: inline-block;
-      background: #fdecea;
-      color: #c0392b;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 3px 10px;
-      border-radius: 20px;
-      margin-bottom: 16px;
-      letter-spacing: 0.5px;
-    }
     .info-box {
       background: #e8f0fe;
       border-left: 4px solid #1a73e8;
@@ -66,14 +55,14 @@
       font-size: 14px;
       color: #7a5800;
     }
-    .danger-box {
-      background: #fdecea;
-      border-left: 4px solid #e53935;
+    .notice-box {
+      background: #f8f9fa;
+      border-left: 4px solid #aaa;
       padding: 14px 18px;
       border-radius: 4px;
       margin: 16px 0;
       font-size: 14px;
-      color: #7a1c1c;
+      color: #555;
     }
     table {
       width: 100%;
@@ -109,7 +98,6 @@
 <body>
 
 <header>
-  <div class="badge">18+ ONLY</div>
   <h1>Privacy Policy</h1>
   <p>Graf: AI Photo &amp; Video Editor &nbsp;|&nbsp; Last updated: April 1, 2026 &nbsp;|&nbsp; Effective immediately</p>
 </header>
@@ -125,10 +113,9 @@
   By downloading, installing, or using Graf, you acknowledge that you have read and understood
   this Privacy Policy and agree to its terms. If you do not agree, please do not use the app.
 </p>
-<div class="danger-box">
-  <strong>Age Restriction:</strong> Graf is strictly intended for users who are
-  <strong>18 years of age or older</strong>. If you are under 18, you are not permitted
-  to use this app. We do not knowingly collect data from minors.
+<div class="notice-box">
+  This app is intended for adults. By using Graf, you confirm that you meet the minimum
+  age requirement applicable in your country or region.
 </div>
 
 <!-- 2 -->
@@ -175,9 +162,7 @@
 
 <!-- 3 -->
 <h2>3. How Your Photos and Videos Are Processed</h2>
-<p>
-  When you upload a photo or video, the following process occurs:
-</p>
+<p>When you upload a photo or video, the following process occurs:</p>
 <ul>
   <li>Your media is securely uploaded to <strong>Google Firebase Storage</strong></li>
   <li>The file is then sent to <strong>Fal.ai</strong> for AI processing using
@@ -196,6 +181,7 @@
   for advertising, or for any purpose other than delivering your requested result.
 </div>
 
+<!-- 4 -->
 <h2>4. Third-Party Services We Use</h2>
 <p>Graf relies on the following trusted third-party services to operate:</p>
 
@@ -244,6 +230,7 @@
   <a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat</a>.
 </p>
 
+<!-- 5 -->
 <h2>5. Data Retention</h2>
 <ul>
   <li><strong>Uploaded photos/videos:</strong> Retained in Firebase Storage until you delete them or uninstall the app. You can delete them at any time from within the app.</li>
@@ -253,34 +240,27 @@
   <li><strong>Purchase records:</strong> Retained by RevenueCat and Google Play per their policies.</li>
 </ul>
 
-<h2>6. Children's Privacy</h2>
-<div class="danger-box">
-  <strong>Graf is strictly an 18+ application.</strong> We do not knowingly collect,
-  store, or process any personal data from individuals under the age of 18.
-  Generation of any content involving minors is <strong>strictly prohibited</strong>
-  and constitutes a violation of our Terms of Service and applicable law.
-  If we become aware that a minor has used our app, we will immediately delete
-  all associated data. To report such a case, contact us at
-  <a href="mailto:cosmicloopbyte@gmail.com">cosmicloopbyte@gmail.com</a>.
-</div>
+<!-- 6 -->
+<h2>6. Minors</h2>
+<p>
+  Graf is not directed at children. We do not knowingly collect personal data from
+  individuals who do not meet the minimum age requirements applicable in their region.
+  If you believe such data has been collected, please contact us at
+  <a href="mailto:cosmicloopbyte@gmail.com">cosmicloopbyte@gmail.com</a>
+  and we will delete it promptly.
+</p>
 
-<h2>7. Content Safety &amp; Prohibited Use</h2>
-<p>The following types of content are <strong>strictly prohibited</strong> on Graf:</p>
-<ul>
-  <li>Any content involving minors in a sexual, violent, or exploitative context</li>
-  <li>Child Sexual Abuse Material (CSAM) of any kind — this is a criminal offense
-      and will be reported to relevant authorities including NCMEC</li>
-  <li>Non-consensual intimate imagery (NCII)</li>
-  <li>Content that promotes or glorifies violence, terrorism, or hatred</li>
-  <li>Content that violates the rights or dignity of any individual</li>
-</ul>
-<div class="warning-box">
-  By using Graf, you confirm that you will not generate any prohibited content.
-  <strong>You are solely responsible for all content you create.</strong>
-  We reserve the right to terminate access and report illegal activity to authorities
-  without prior notice.
-</div>
+<!-- 7 -->
+<h2>7. Content Safety</h2>
+<p>
+  Graf's AI generation features are subject to content policies. Certain categories
+  of content are strictly prohibited, including but not limited to content that
+  exploits or endangers minors, non-consensual imagery, or content that violates
+  applicable laws. Users are solely responsible for the content they generate.
+  Violations may result in immediate termination of access.
+</p>
 
+<!-- 8 -->
 <h2>8. Data Security</h2>
 <ul>
   <li>All data transmission between the app and our servers is encrypted using <strong>HTTPS/TLS</strong></li>
@@ -289,8 +269,8 @@
   <li>We apply industry-standard security practices to protect your data from unauthorized access</li>
 </ul>
 
+<!-- 9 -->
 <h2>9. Your Rights</h2>
-<p>You have the following rights regarding your data:</p>
 <ul>
   <li><strong>Access:</strong> Request information about what data we hold about you</li>
   <li><strong>Deletion:</strong> Delete your generated photos and videos directly within the app at any time. For full data deletion, contact us.</li>
@@ -303,6 +283,7 @@
   We will respond within 30 days.
 </p>
 
+<!-- 10 -->
 <h2>10. International Data Transfers</h2>
 <p>
   Your data may be processed and stored on servers located outside of Turkey,
@@ -311,6 +292,7 @@
   third-party providers maintain adequate data protection standards.
 </p>
 
+<!-- 11 -->
 <h2>11. Changes to This Policy</h2>
 <p>
   We may update this Privacy Policy from time to time to reflect changes in our
@@ -319,6 +301,7 @@
   after any changes constitutes your acceptance of the updated policy.
 </p>
 
+<!-- 12 -->
 <h2>12. Contact Us</h2>
 <p>If you have any questions, concerns, or requests regarding this Privacy Policy, please contact us:</p>
 <ul>
